@@ -1,0 +1,400 @@
+@import "vars";
+@import "libs";
+@import "fonts";
+@import "../css/nullstyle.scss";
+
+.body{
+    background-color: #151515;
+}
+.section{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/Dots.png);
+    background-color: #151515;
+    position: relative;
+
+}
+    
+.header{
+    max-width: 1550px;
+    height: 150px;
+    margin: 0 auto;
+    background-color:#151515;
+    &__navigation{
+    }
+    &__menu{
+        width: 1550px;
+        display: flex;
+        justify-content: space-between;
+        height: 150px;
+        margin: 0 auto;
+        align-items: center;
+    }
+}
+ .media{
+     width: 185px;
+     display: flex;
+     justify-content: space-between;
+ }
+
+.media__item{
+    display: inline-block;
+}
+.button{
+    width: 220px;
+    height: 60px;
+    box-shadow: 0 0 8.4px 0.6px #06dc06;
+    border: solid 0.5px #06dd06;
+    background-color: #151515;
+    color: white;
+    font-size: 24px;
+    position: relative;
+    font-family: MyWebFont1;
+}
+
+.button::after{
+    content: " ";
+    background-image: url(../images/arrow.png);
+    background-size: cover;
+    width: 17px;
+    height: 14px;
+    position: absolute;
+    top: 37%;
+    left: 75%;
+}
+.bg-text{
+  
+        font-size: 36.573px;
+        font-family:MyWebFont;
+        color: rgba(255, 255, 255, 0.031);
+        line-height: 1.267;
+        font-size:  165px;
+        letter-spacing: 45px;
+        position: absolute;
+        top: 40%;
+        left: 130px;
+        
+       
+      } 
+.banner{
+    max-width: 740px;
+    padding: 0 30px 0 30px;
+    margin-top: 70px;
+    margin-left: 50px;
+&__title{
+    font-family: MyWebFont;
+  font-size: 63.5px;
+  line-height: 1.13;
+  letter-spacing: 3.18px;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: left;
+}
+&__subtitle{
+    font-size: 29px; 
+    text-align: left;
+    color: #ffffff;
+    font-family: MyWebFont;
+    letter-spacing: 2px;
+}
+&__call{
+
+    font-family: MyWebFont;
+    font-size: 30px;
+    text-align: left;
+    color: #ffffff;
+    width: 306px;
+    height: 65px;
+    box-shadow: 0 0 8.4px 0.6px #06dc06;
+    border: solid 1px #06dd06;
+    background-image: linear-gradient(to top, #069f06, #06dd06);
+    margin-top: 43px;
+    position: absolute;
+    z-index: 2;
+    text-transform: uppercase;
+    text-align: center;
+
+  }
+  }
+
+  .outLineBg {
+    font-family: MyWebFont;
+    max-width: 306px;
+    height: 67px;
+    box-shadow: 0 0 8.4px 0.6px #06dc06;
+    border: solid 1px #06dd06;
+    background-color: #151515;
+    position: relative;
+    margin-top: 47px;
+    margin-left: 4px;
+  }
+
+
+.girl{
+   
+    background-image: url(../images/Photo.png);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 800px;
+    position: absolute;
+    background-size: contain;
+    top: 100px;
+    right: 50px;
+    &::before{
+        content: "L O R E M";
+        color: white;
+        font-family: MyWebFont;
+        position: absolute;
+        top: 160px;
+        right: 100px;
+        font-size: 26px;
+        width: 50px;
+    }
+    &::after{
+        content: "L O R E M";
+        color: white;
+        font-family: MyWebFont;
+        position: absolute;
+        bottom: 140px;
+        font-size: 26px;
+        width: 50px;
+        right: 370px;
+        transform: rotate(90deg);
+    }
+    }
+.product{
+    background-image: url(../images/Product.png);
+    width: 580px;
+    height: 400px;
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    right: 300px;
+    top: 450px;
+    z-index: 2;
+}
+.menu__mobile{
+    display: none;
+}
+
+.bg{
+    background-color: #c4c4c460;
+    opacity: 0.1;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 500px;
+    z-index: 1;
+}
+.section2{
+    background-color:rgba(#151515, 1);
+    background-image: url(../images/WAVES.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.promo{
+    width: 1650px;
+    margin: 0 auto;
+    height: 620px;
+    display: flex;
+    padding-top: 200px;
+    &__size{
+    }
+    &__video{
+        width: 980px;
+        height: 555px;
+        background-image: url(../images/SMOKE.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+  
+    }
+
+    &__img{
+        background-image: url(../images/guitar.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 230px;
+        height: 90%;
+        margin-left: 110px;
+        margin-top: 20px;
+    }
+    &__description{
+        width: 650px;
+        height: 520px;
+    }
+    &__text{
+        color: white;
+    }
+    &__cube{
+        
+            border-width: 0.5px;
+            border-color: rgb(1, 247, 0);
+            border-style: solid;
+            box-shadow: 0px 0px 38.8px 1.2px rgba(6, 220, 6, 0.004);
+            width: 474px;
+            height: 306px;
+            margin-top: 125px; 
+            position: relative;  
+    }
+    &__main{
+      
+            font-size: 40px;
+            font-family: "MyWebFont1";
+            color: rgb(255, 255, 255);
+            opacity: 0.4;
+            line-height: 2.474;
+            text-transform: uppercase;
+            letter-spacing: 25px;
+            padding: 5px;                
+    }
+    &__play{
+        position: absolute;
+        top: 25%;
+        left: 9%;
+    }
+    &__description{
+        width: 590px;
+    }
+    &__title{
+        
+            font-size: 50px;
+            font-family: "MyWebFont1";
+            color: rgb(255, 255, 255);
+            line-height: 1.148;
+            text-align: left;
+            text-transform: uppercase;
+    }
+    &__subtitle{
+
+            font-size: 28px;
+            font-family: "MeWebFont1";
+            color: rgb(11, 225, 11);
+            line-height: 1.2;
+            text-align: left;
+    }
+    &__text{
+            font-size: 24px;
+            font-family: "MeWebFont1";
+            color: rgb(255, 255, 255);
+            line-height: 1.667;
+            text-align:Left;
+    }
+}
+.wawes-left{
+    background-image: url(../images/WAVES.png);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 960px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:480px){
+    .header{
+        width: 440px;
+    }
+    .header__menu{
+        display: none;
+    }
+    .media{
+        display: none;
+    }
+    .button{
+        display: none;
+    }
+ 
+  .menu__mobile{
+      width: 440px;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 30px;
+  }
+  .banner__title{
+      display: none;
+  }
+  .banner__subtitle{
+      font-size: 18px;
+      width: 400px;
+  }
+  .banner__call{
+      width: 250px;
+      height: 40px;
+      box-shadow: unset;
+      padding: 5px;
+      font-size: 24px;
+  }
+  .outLineBg{
+      width: 251px;
+      height: 41px;
+  }
+  .banner{
+      margin-left: 0;
+  }
+  .girl{
+      width: 260px;
+      height: 380px;
+      display: block;
+      margin: 0 auto;
+      position: unset;
+      &::before{
+          font-size: 16px;
+          top: 450px;
+          right: 130px;
+      }
+      &::after{
+          font-size: 16px;
+          bottom: 45px;
+          left: 130px;
+      }
+  }
+  .product{
+      display: none;
+  }
+  .bg-text{
+      font-size: 140px;
+      letter-spacing: normal;
+      left: 40px;
+  }
+}
+
+@import "media";
