@@ -352,9 +352,9 @@
     display: none;
   }
   
-  .slick-slide:nth-child(odd) {
-    /* background: blue;*/
-  }
+//   .slick-slide:nth-child(odd) {
+//     /* background: blue;*/
+//   }
   
   .slick-slide {
     opacity: 0.2;
@@ -376,7 +376,16 @@
 .cup{
  
 }
+.prev{
+   
+    position: absolute;
+    top: 360px;
+}
+.next{
 
+    position: absolute;
+    top: 300px;
+}
 .description-first{
  
 }
@@ -413,7 +422,11 @@
   
 }
 
+.slick-arrow{
+    right: -60px;
+    
 
+}
 
 
 
