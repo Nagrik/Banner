@@ -627,22 +627,29 @@ a{
 
 .footer{
   height: 550px;
-  width: 100%;
-  margin-top: 200px;
+  width: 80%;
+  padding-top: 250px;
+  margin: 0 auto;
   &__title{
     color: white;
-    font-size: 24px;
-    text-underline-offset: 1px solid rgb(11, 225, 11); ;
+    font-size: 42px;
     font-family: MyWebFont;
+    text-align: center;
+    text-decoration: underline;
   }
   &__main{
-    width: 1640px;
+    width: 1650px;
     height: 150px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     &-left{
       width: 225px;
       height: 120px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      padding-left: 100px;
     }
     &-center{
       width: 525px;
@@ -653,11 +660,104 @@ a{
 .footer__main-left--subtitle{
   font-size: 40px;
   letter-spacing: 5px;
+  text-align: center;
 }
 .footer__media{
+  width: 180px;
   display: flex;
   justify-content: space-between;
 }
+
+.footer__icon{
+  display: flex;
+}
+
+.footer__main-center{
+  width: 525px;
+  height: 125px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: 200px;
+  &--subtitle{
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-family: MyWebFont;
+    
+  }
+}
+
+.mail,.phone{
+  font-family: MyWebFont;
+  font-size: 25.5px;
+  line-height: 2.14;
+  letter-spacing: 2.55px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.footer__main-right{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 440px;
+  height: 137px;
+}
+
+.footer__main-right--subtitle{
+  letter-spacing: 5px;
+  font-size: 40px;
+  font-family: MyWebFont;
+}
+.city{
+  font-family: MyWebFont;
+  font-size: 25.5px;
+  line-height: 2.14;
+  letter-spacing: 2.55px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.map{
+  font-family: MyWebFont;
+  font-size: 25.5px;
+  line-height: 2.14;
+  letter-spacing: 2.55px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.Waze{
+  font-family: MyWebFont;
+  font-size: 25.5px;
+  line-height: 2.14;
+  letter-spacing: 2.55px;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
